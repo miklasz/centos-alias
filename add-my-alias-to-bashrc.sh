@@ -5,7 +5,7 @@ function log {
 log ""
 log ""
 log "add custom alias to .bashrc"
-cat <<EOFBASH > ~/.bashrc
+cat <<EOFBASH >> ~/.bashrc
 alias c='clear'
 alias ~='cd ~/'
 alias mk='cd ~/MyKeys/'

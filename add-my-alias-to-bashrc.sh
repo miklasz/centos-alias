@@ -20,6 +20,10 @@ alias gpom='git push origin master'
 EOFBASH
 log ""
 log ""
+log "source .bashrc"
+source ~/.bashrc
+log ""
+log ""
 log "DONE :-)"
 log ""
 log ""
